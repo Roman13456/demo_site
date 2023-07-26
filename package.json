@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"./node_modules/.bin/netlify-lambda serve src",
-    "build":"./node_modules/.bin/netlify-lambda build src",
+    "start": "npx netlify-lambda serve src",
+    "build": "npx netlify-lambda build src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": { 
+  "dependencies": {
     "express": "^4.18.2",
     "netlify-lambda": "^2.0.16",
     "serverless-http": "^3.2.0"
